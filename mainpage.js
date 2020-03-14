@@ -22,5 +22,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Function to handle the button being pressed
 function buttonPlay() {
-    console.log("The button has been pressed");
+    var txt;
+    if(confirm("Did you mean to press the button?")){
+        txt = "The button, was indeed pressed";
+    }
+    else {
+        txt = "Well then. I guess it was a mistake";
+    }
+
+    document.getElementById("welcome-message").innerText = txt;
 }

@@ -53,10 +53,25 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+li a:after{
+    content: 'H';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
 
 li a:hover{
     background-color: #374785;
+    padding-right: 25px;
+    opacity: 1;
+    right: 0;
 }
 
 .mybutton{
