@@ -44,6 +44,7 @@ ul{
 
 li{
     float: left;
+    width: 25%;
 }
 
 li a{
@@ -82,4 +83,8 @@ li a:hover{
 .mybutton:hover{
     background-color: #4CAF50;
     color: white;
+}
+
+.navbarbuttons{
+    width: 100%;
 }
