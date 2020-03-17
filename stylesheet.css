@@ -98,8 +98,16 @@ li a:hover{
 .mybutton:hover{
     background-color: #4CAF50;
     color: white;
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
 }
 
 .navbarbuttons{
     width: 100%;
+}
+
+.footer{
+    padding: 10px;
+    background-color: #24305E;
+    text-align: center;
 }
